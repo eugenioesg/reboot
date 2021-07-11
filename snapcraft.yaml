@@ -1,6 +1,6 @@
 name: rebootimer 
 base: core18
-version: '1.2.1'
+version: '1.2.3'
 summary:  unload and test connection with nmap.nping
 
 description: |
@@ -69,5 +69,5 @@ parts:
 
   nmap:
     plugin: nil
-    stage-snaps: [nmap, lifepo4]
+    stage-snaps: [nmap, lifepo4/latest/edge]
 
